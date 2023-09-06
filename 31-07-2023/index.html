@@ -1,0 +1,175 @@
+<!-- Declaração de que o documento é em HTML, marcando
+o início do código -->
+<!DOCTYPE html>
+
+<!-- Tag html lang: especifica o idioma da página -->
+<html lang="pt-BR">
+
+
+<!-- Tag head: não é visualizado no corpo (body) da página,
+armazena os metadados -->
+
+<head>
+
+    <!-- Metadado UTF-8: considera um conjunto de caracteres presente no idioma português (acentuação, por exemplo) -->
+    <meta charset="UTF-8">
+
+    <!--Metadado que possibilita a visualização em navegador de dispositivo móvel -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Referencia o arquivo CSS, coloca na tag HEAD-->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- Tag title: título da guia -->
+    <title>Portfólio</title>
+
+</head>
+
+
+<!-- Tag body: Definir o corpo do documento (conteúdo a ser visualizado) -->
+
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family= família= Roboto+Mono:ital,wght@0,200;0,400;1,200 & display=swap');
+    </style>
+
+
+    <!-- Cabeçalho da página-->
+    <header>
+
+        <!-- Tag nav: Cria uma seção de menu (navigation) -->
+        <nav>
+
+            <!-- Tah UL: Cria uma lista desordenada. Tag OL: cria uma lista ordenada-->
+            <ul id="menu">
+
+                <!-- Tah ul: Cria uma lista desordenada -->
+
+                <!-- Tag a: possibilita que o texto seja clicável-->
+                <!-- Tag href: determina o redirecionamento da página. Uma referência-->
+                <li><a href="#">Inicío</a></li>
+                <li><a href="sobremim.html"> Sobre mim </a></li>
+                <li><a href="#servicos"> Soluções de TI</a></li>
+                <li><a href="contato.html"> Contato </a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Cabeçalho da página-->
+        <div class="apresentacao">
+
+            <!-- Tag img: inserir imagem na página -->
+
+            <div class="left">
+                <img src="img/TI-removebg-preview.png" width="50%">
+            </div>
+
+
+
+            <div class="right">
+                <!-- Tags h1 ao h6: níveis de importância no corpo do site -->
+                <span>Soluções tecnológicas em </span>
+                <h1> Redes de computadores e Desenvolvimento web </h1>
+
+                <div>
+                    <button class="btn btnContact"><b>Entre em contato</b></button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+
+
+    <!-- Divisão em seções (partes da página) -->
+    <section id="servicos">
+        <h3>Assistencia de redes e computadores</h3>
+
+        <div class="conteinerServicos">
+
+            <div class="itemServicos1">
+                <img src="img/montagemPC/96.png">
+                <H2>Montagem e manutenção de computadores</H2>
+
+            </div>
+
+            <div class="itemServicos2">
+                <img src="img/Redes/96.png">
+                <h2>Implementação e configuração de redes</h2>
+
+            </div>
+
+            <div class="itemServicos3">
+                <img src="img/configuracaoSO/96.png">
+                <h2>Instalação e configuração de sistemas operacionais</h2>
+            </div>
+
+            <div class="itemServicos4">
+                <img src="img/SegurancaInformacao_64px.png">
+                <h2>Seguranção de informação e backup</h2>
+
+            </div>
+
+
+        </div>
+
+
+        <h3>Desenvolvimento e Implementação de aplicativos</h3>
+        <div class="conteinerServicos">
+
+            <div class="itemServicos5">
+                <img src="img/prototipacao/96.png">
+                <h2>prototição de aplicações</h2>
+            </div>
+
+            <div class="itemServicos6">
+                <img src="img/bancoDeDados/96.png">
+                <h2>Estruturação e administração de bancos de dados</h2>
+            </div>
+
+            <div class="itemServicos7">
+                <img src="img/sistemaDesktop/96.png">
+                <h2>Desenvolvimento de sistema desktop</h2>
+
+            </div>
+
+            <div class="itemServicos8">
+                <img src="img/desenvolverSite/96.png">
+                <h2>Desenvolvimento e hospedagem de sites</h2>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!--Tag hr: cria uma linha-->
+    <!--<hr>-->
+
+
+    
+
+    <!-- 
+    <h3>  Subtítulo 3 </h3>
+    <h4>  Subtítulo 4 </h4>
+    <h5>  Subtítulo 5 </h5>
+    <h6>  Subtítulo 6 </h6>
+    -->
+
+
+    <!-- Tag p: Representar o parágrafo -->
+    
+
+    <!-- Tag footer: seção para idetificar o rodapé -->
+    <footer>
+
+
+
+    </footer>
+</body>
+
+</html>

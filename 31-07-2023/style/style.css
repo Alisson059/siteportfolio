@@ -1,0 +1,171 @@
+/*
+
+margin corresponde á margem externa em relação no elemento padding correponde à "margem interna em relção ao elemento backgraud 
+corresponde ao fundo, no qual é possível colocar uma cor sólida única ou em grediente
+
+box-sizing: content-box não é uma boa prática, pois ao aumentarmos uma imagem, por exemplo, ou qualquer outro elemento, o que
+ocorre é que CAIXA  DE CONTEÚDO ( em que o elemento está) aumenta e não ele em si, causando possível discotorções. O ideal é utilizar
+box-sizing: border-box
+
+Utilizar o site: https://cssgradient.io/
+
+*/
+
+* {
+    margin: 0px;  /* Atribuir uma margin a cada item */
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+#menu {
+    display: flex;              /* seleciona o layout  flexBox */
+    list-style: none;          /* Tirar as bolinha de cada item da lista */
+    padding: 20px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+#menu a {
+    font-family: 'Roboto Mono', monospace;       /* Aplicar uma fonte */
+    color:white;                              /* Aplicar uma cor à fonte */
+    font-size: 20px;                           /* Aumentar o tamanho da fonte  */
+    text-decoration: none;                    /* Tirar o sumblinhado do link  */
+    flex-direction: row;                     /* Alinhar um ao lado do outro */
+    margin: 20px;                           /*Atribuir uma margin a cada item*/ 
+    text-transform: uppercase
+}
+
+
+
+/* Ao passar o mouse mudar a cor*/
+#menu a:hover {
+    color: rgb(45, 2, 235);
+
+}
+
+
+
+header {
+    background: rgb(14,13,13);
+    background: linear-gradient(0deg, rgba(14,13,13,1) 0%, rgba(25,2,41,1) 30%);
+}
+
+
+.apresentacao {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+
+
+h1,
+span {
+    font-size: 22px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 180%;               /* Define a altura da linha em relação à próxima */
+    color: white;
+    
+}
+
+.right {
+    flex: 5;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.left {
+    flex: 5;
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btnContact {
+    font-family: 'Roboto Mono', monospace;
+    background: rgb(111, 81, 221);
+    color: black;
+    margin-top: 30px;
+}
+
+.btnContact:hover {
+    background: rgb(111, 11, 204);
+    color: rgb(10, 0, 95);
+}
+
+.conteinerServicos {
+    background: rgba(14,13,13,1);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.itemServicos1, .itemServicos3, .itemServicos5, .itemServicos7{
+    border:  1px solid rgba(0,31,255,1);
+    border-radius: 25px;
+    margin: 15px;
+    padding: 30px 15px;
+    text-align: center;
+    width: 30%;
+    
+}
+
+.itemServicos2, .itemServicos4,.itemServicos6, .itemServicos8 {
+    border:  1px solid rgba(0,31,255,1);
+    border-radius: 25px;
+    margin: 15px;
+    padding: 30px 15px;
+    text-align: center;
+    width: 30%;
+  
+
+}
+
+
+.conteinerServicos h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    color: white;
+}
+
+.conteinerServicos img {
+    width: 70px;
+}
+
+.itemServicos1:hover, .itemServicos3:hover,  .itemServicos5:hover, .itemServicos7:hover{
+    border: 1px solid rgba(0,8,70,1);
+    background: rgba(0,8,70,1);
+    cursor: pointer;
+}
+
+.itemServicos2:hover, .itemServicos4:hover,  .itemServicos6:hover, .itemServicos8:hover{
+    border: 1px solid rgba(0,8,70,1);
+    background: rgba(0,8,70,1);
+    cursor: pointer;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+h3 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background: rgba(14,13,13,1);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    
+ }
