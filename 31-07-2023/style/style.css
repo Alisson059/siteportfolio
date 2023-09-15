@@ -12,15 +12,18 @@ Utilizar o site: https://cssgradient.io/
 */
 
 * {
-    margin: 0px;  /* Atribuir uma margin a cada item */
+    margin: 0px;
+    /* Atribuir uma margin a cada item */
     padding: 0px;
     box-sizing: border-box;
-    
+
 }
 
 #menu {
-    display: flex;              /* seleciona o layout  flexBox */
-    list-style: none;          /* Tirar as bolinha de cada item da lista */
+    display: flex;
+    /* seleciona o layout  flexBox */
+    list-style: none;
+    /* Tirar as bolinha de cada item da lista */
     padding: 20px;
     justify-content: center;
     margin-bottom: 15px;
@@ -28,12 +31,18 @@ Utilizar o site: https://cssgradient.io/
 
 
 #menu a {
-    font-family: 'Roboto Mono', monospace;       /* Aplicar uma fonte */
-    color:white;                              /* Aplicar uma cor à fonte */
-    font-size: 20px;                           /* Aumentar o tamanho da fonte  */
-    text-decoration: none;                    /* Tirar o sumblinhado do link  */
-    flex-direction: row;                     /* Alinhar um ao lado do outro */
-    margin: 20px;                           /*Atribuir uma margin a cada item*/ 
+    font-family: 'Roboto Mono', monospace;
+    /* Aplicar uma fonte */
+    color: white;
+    /* Aplicar uma cor à fonte */
+    font-size: 20px;
+    /* Aumentar o tamanho da fonte  */
+    text-decoration: none;
+    /* Tirar o sumblinhado do link  */
+    flex-direction: row;
+    /* Alinhar um ao lado do outro */
+    margin: 20px;
+    /*Atribuir uma margin a cada item*/
     text-transform: uppercase
 }
 
@@ -48,14 +57,14 @@ Utilizar o site: https://cssgradient.io/
 
 
 header {
-    background:rgba(25,2,41,1);
-    
+    background: rgba(25, 2, 41, 1);
+
 }
 
 
 .apresentacao {
     display: flex;
-    padding-bottom: 20x; 
+    padding-bottom: 20x;
 }
 
 
@@ -64,9 +73,10 @@ h1,
 span {
     font-size: 22px;
     font-family: 'Roboto Mono', monospace;
-    line-height: 180%;               /* Define a altura da linha em relação à próxima */
+    line-height: 180%;
+    /* Define a altura da linha em relação à próxima */
     color: white;
-    
+
 }
 
 .right {
@@ -105,34 +115,40 @@ span {
 }
 
 .conteinerServicos {
-    background: rgba(0,0,0,1);
+    background: rgba(0, 0, 0, 1);
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.itemServicos1, .itemServicos3, .itemServicos5, .itemServicos7{
-    border:  1px solid rgba(0,31,255,1);
+.itemServicos1,
+.itemServicos3,
+.itemServicos5,
+.itemServicos7 {
+    border: 1px solid rgba(0, 31, 255, 1);
     border-radius: 25px;
     margin: 15px;
     padding: 30px 15px;
     text-align: center;
     width: 30%;
-    box-shadow: 6px 6px 10px -1px rgb(149, 0, 255), -6px -6px 10px -1px rgba(0,21,255,1);
-    transition: 0,5s; 
-    
-    
+    box-shadow: 6px 6px 10px -1px rgb(149, 0, 255), -6px -6px 10px -1px rgba(0, 21, 255, 1);
+    transition: 0, 5s;
+
+
 }
 
-.itemServicos2, .itemServicos4,.itemServicos6, .itemServicos8 {
-    border:  1px solid rgba(0,31,255,1);
+.itemServicos2,
+.itemServicos4,
+.itemServicos6,
+.itemServicos8 {
+    border: 1px solid rgba(0, 31, 255, 1);
     border-radius: 25px;
     margin: 15px;
     padding: 30px 15px;
     text-align: center;
     width: 30%;
-    box-shadow: 6px 6px 10px -1px rgb(149, 0, 255), -6px -6px 10px -1px rgba(0,21,255,1);
-    transition: 0,5s;
+    box-shadow: 6px 6px 10px -1px rgb(149, 0, 255), -6px -6px 10px -1px rgba(0, 21, 255, 1);
+    transition: 0, 5s;
 }
 
 .conteinerServicos h2 {
@@ -145,74 +161,97 @@ span {
     width: 70px;
 }
 
-.itemServicos1:hover, .itemServicos3:hover,  .itemServicos5:hover, .itemServicos7:hover{
-    border: 1px solid rgba(0,8,70,1);
-    background: rgba(0,8,70,1);
+.itemServicos1:hover,
+.itemServicos3:hover,
+.itemServicos5:hover,
+.itemServicos7:hover {
+    border: 1px solid rgba(0, 8, 70, 1);
+    background: rgba(0, 8, 70, 1);
     cursor: pointer;
-      
+    transform: scale(1.08);
 }
 
-.itemServicos2:hover, .itemServicos4:hover,  .itemServicos6:hover, .itemServicos8:hover{
-    border: 1px solid rgba(0,8,70,1);
-    background: rgba(0,8,70,1);
+.itemServicos2:hover,
+.itemServicos4:hover,
+.itemServicos6:hover,
+.itemServicos8:hover {
+    border: 1px solid rgba(0, 8, 70, 1);
+    background: rgba(0, 8, 70, 1);
     cursor: pointer;
-
-}
-.itemServicos1 img:hover, .itemServicos3 img:hover{
-    transform: scale(1.5) rotate(20deg);
+    transform: scale(1.08);
 }
 
-.itemServicos2 img:hover, .itemServicos4 img:hover, .itemServicos5 img:hover,
-.itemServicos6 img:hover, .itemServicos7 img:hover, .itemServicos8 img:hover {
-    transform: scale(1.4);
-}
-
-html{
+html {
     scroll-behavior: smooth;
 }
+
 h3 {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    background: rgba(0,0,0,1);
+    background: rgba(0, 0, 0, 1);
     color: white;
     padding-top: 30px;
     padding-bottom: 5px;
-    font-size: 20px;   
+    font-size: 20px;
 }
-.conteinerSobreMim{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(25,2,41,1) 30%);
+
+.conteinerSobreMim {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(25, 2, 41, 1) 30%);
     display: flex;
     align-items: center;
     padding-bottom: 30px;
 }
-.conteinerSobreMim .left{
+
+.conteinerSobreMim .left {
     color: white;
-    flex: 4;
-    padding-right: 35px;
-    padding-left: 35px;
-    
-}
-.conteinerSobreMim .right {
     flex: 6;
-    padding-left: 150px;
-    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    line-height: 30px;
+
 }
 
-#sobreMim h3{
+.conteinerSobreMim .right {
+    flex: 4;
+}
+
+#sobreMim h3 {
     text-align: center;
     padding: 50px;
     font-size: 20px;
-    background: rgba(25,2,41,1);
-}
-.conteinerSobreMim video {
-    border-radius: 30px;
+    background: rgba(25, 2, 41, 1);
 }
 
-.conteinerSobreMim video:hover {
-    border: 4px solid;
-    cursor: pointer;
-    background: rgba(0,0,0,1);
+.SocialMedia a{
+    text-decoration: none;
+    display:block;
+    /* font-size: 40px; */
 }
+
+.SocialMedia p {
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+}
+
+.SocialMedia i{
+    font-size: 40px;
+    border-radius: 50px;
+    padding: 12px;
+    background: black;
+    
+}
+
+.SocialMedia i:hover {
+    transform: scale(1.05) rotate(10deg);
+}
+
+
+
+    
+
 
 
