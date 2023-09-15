@@ -51,9 +51,9 @@ Utilizar o site: https://cssgradient.io/
 /* Ao passar o mouse mudar a cor*/
 #menu a:hover {
     color: rgb(45, 2, 235);
+    
 
 }
-
 
 
 header {
@@ -247,6 +247,37 @@ h3 {
 
 .SocialMedia i:hover {
     transform: scale(1.05) rotate(10deg);
+}
+
+#contato {
+    background: rgba(0, 0, 0, 1);
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    
+}
+
+.ConteinerContato h2 {
+    font-family: 'roboto mono', monospace;
+    font-size: 20px;
+}
+
+form {
+    font-size: 16px;
+    max-width: 400px;
+}
+
+input, textarea {
+   
+    width: 250px;
+    padding: 8px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: 1px solid;
+    
+    
 }
 
 
