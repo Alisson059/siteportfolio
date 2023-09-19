@@ -16,6 +16,8 @@ Utilizar o site: https://cssgradient.io/
     /* Atribuir uma margin a cada item */
     padding: 0px;
     box-sizing: border-box;
+    
+    
 
 }
 
@@ -27,8 +29,10 @@ Utilizar o site: https://cssgradient.io/
     padding: 20px;
     justify-content: center;
     margin-bottom: 15px;
+    
+    
+    
 }
-
 
 #menu a {
     font-family: 'Roboto Mono', monospace;
@@ -43,7 +47,7 @@ Utilizar o site: https://cssgradient.io/
     /* Alinhar um ao lado do outro */
     margin: 20px;
     /*Atribuir uma margin a cada item*/
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 
@@ -119,6 +123,7 @@ span {
     display: flex;
     justify-content: center;
     padding: 30px;
+    margin-top: -8px;
 }
 
 .itemServicos1,
@@ -157,9 +162,7 @@ span {
     color: white;
 }
 
-.conteinerServicos img {
-    width: 70px;
-}
+
 
 .itemServicos1:hover,
 .itemServicos3:hover,
@@ -245,9 +248,9 @@ h3 {
     
 }
 
-.SocialMedia i:hover {
+/* .SocialMedia i:hover {
     transform: scale(1.05) rotate(10deg);
-}
+} */
 
 #contato {
     background: rgba(0, 0, 0, 1);
@@ -268,21 +271,64 @@ form {
     max-width: 400px;
 }
 
-input, textarea {
+input {
    
     width: 250px;
     padding: 8px;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 25px;
     border: 1px solid;
     
     
 }
 
-
-
+textarea{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
     
+}
+
+.displayContato {
+    display: flex;
+}
+
+#mensagem {
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+#mensagem label {
+    font-size: 16px;
+}
+
+
+form h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mensagem input {
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'roboto mono', monospace;
+}
+
+#mensagem input:hover {
+    transform: scale(1.05);
+    
+}
+
+.maps {
+    padding-left: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
 
 
 
