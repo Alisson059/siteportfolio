@@ -18,34 +18,28 @@ Utilizar o site: https://cssgradient.io/
     box-sizing: border-box;
     
     
+    
 
 }
 
 #menu {
-    display: flex;
-    /* seleciona o layout  flexBox */
-    list-style: none;
-    /* Tirar as bolinha de cada item da lista */
-    padding: 20px;
-    justify-content: center;
-    margin-bottom: 15px;
-    
-    
+    font-family: 'Roboto Mono', monospace;
+    /* Aplicar uma cor à fonte */
+    font-size: 20px;
     
 }
+    
 
 #menu a {
     font-family: 'Roboto Mono', monospace;
     /* Aplicar uma fonte */
     color: white;
-    /* Aplicar uma cor à fonte */
-    font-size: 20px;
     /* Aumentar o tamanho da fonte  */
     text-decoration: none;
     /* Tirar o sumblinhado do link  */
     flex-direction: row;
     /* Alinhar um ao lado do outro */
-    margin: 20px;
+    /* margin: 20px; */
     /*Atribuir uma margin a cada item*/
     text-transform: uppercase;
 }
@@ -76,7 +70,6 @@ header {
 h1,
 span {
     font-size: 22px;
-    font-family: 'Roboto Mono', monospace;
     line-height: 180%;
     /* Define a altura da linha em relação à próxima */
     color: white;
@@ -196,6 +189,7 @@ h3 {
     padding-top: 30px;
     padding-bottom: 5px;
     font-size: 20px;
+    margin-bottom: -8px;
 }
 
 .conteinerSobreMim {
@@ -248,10 +242,6 @@ h3 {
     
 }
 
-/* .SocialMedia i:hover {
-    transform: scale(1.05) rotate(10deg);
-} */
-
 #contato {
     background: rgba(0, 0, 0, 1);
     font-family: 'Roboto Mono', monospace;
@@ -262,7 +252,7 @@ h3 {
 }
 
 .ConteinerContato h2 {
-    font-family: 'roboto mono', monospace;
+    font-family: 'roboto mono', monospace; 
     font-size: 20px;
 }
 
@@ -326,9 +316,34 @@ form h2 {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.navColor {
+    justify-content: center;
+    background: rgba(25, 2, 41, 1);
     
+}
+
+.container-fluid {
+    background: rgba(25, 2, 41, 1);
+    margin-top: -8px;
+    margin-bottom: -8px;
+    padding: 10px;
+}
+
+.navbar-toggler{
+    border: 1px solid transparent;
+    margin: 7px;
+}
+
+.navbar {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%280, 0, 0' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 
 }
+
+
+
+
 
 
 

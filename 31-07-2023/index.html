@@ -16,19 +16,19 @@ armazena os metadados -->
 
     <!--Metadado que possibilita a visualização em navegador de dispositivo móvel -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Referencia o arquivo CSS, coloca na tag HEAD-->
 
     <script src="https://kit.fontawesome.com/bfce6f3381.js" crossorigin="anonymous"></script>
-   
+
     <!-- Tag title: título da guia -->
     <title>Portfólio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  
-    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Referencia o arquivo CSS, coloca na tag HEAD-->
-    <link  rel="stylesheet" href="style/style.css">
-    
+    <link rel="stylesheet" href="style/style.css">
+
 
 </head>
 
@@ -42,32 +42,40 @@ armazena os metadados -->
     </style>
 
 
+
+
+
+    <!-- Tag nav: Cria uma seção de menu (navigation) -->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" id="menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navColor" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicío</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobreMim">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Soluções de TI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- Cabeçalho da página-->
     <header>
 
-        <!-- Tag nav: Cria uma seção de menu (navigation) -->
-
-
-        <nav>
-            
-          
-
-            <!-- Tah UL: Cria uma lista desordenada. Tag OL: cria uma lista ordenada-->
-            <ul id="menu">
-
-                <!-- Tah ul: Cria uma lista desordenada -->
-
-                <!-- Tag a: possibilita que o texto seja clicável-->
-                <!-- Tag href: determina o redirecionamento da página. Uma referência-->
-                <li><a href="#">Inicío</a></li>
-                <li><a href="#sobreMim"> Sobre mim </a></li>
-                <li><a href="#servicos"> Soluções de TI</a></li>
-                <li><a href="#contato"> Contato </a></li>
-            </ul>
-        </nav>
-
-
-        <!-- Cabeçalho da página-->
         <div class="apresentacao">
 
             <!-- Tag img: inserir imagem na página -->
@@ -253,15 +261,19 @@ armazena os metadados -->
                     </div>
 
                     <div class="maps">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8065064986695!2d-46.70641572448957!3d-23.647099564748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50f8ac76dfdb%3A0xc160a87f059ec93d!2sSenac%20Largo%20Treze!5e0!3m2!1spt-PT!2sbr!4v1695048236631!5m2!1spt-PT!2sbr" 
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8065064986695!2d-46.70641572448957!3d-23.647099564748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50f8ac76dfdb%3A0xc160a87f059ec93d!2sSenac%20Largo%20Treze!5e0!3m2!1spt-PT!2sbr!4v1695048236631!5m2!1spt-PT!2sbr"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                 </div>
 
             </form>
 
-            
+            <button id="correta"> resposta</button>
+
+
 
 
 
@@ -276,13 +288,14 @@ armazena os metadados -->
 
     </footer>
 
-    
+
 
 
     <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
 </body>
 
 </html>
