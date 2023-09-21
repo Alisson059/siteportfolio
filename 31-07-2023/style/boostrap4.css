@@ -123,7 +123,7 @@
     --bs-form-valid-color: #198754;
     --bs-form-valid-border-color: #198754;
     --bs-form-invalid-color: #dc3545;
-    --bs-form-invalid-border-color: #dc3545
+    --bs-form-invalid-border-color: #dc3545;
 }
 
 [data-bs-theme=dark] {
@@ -179,13 +179,13 @@
     --bs-form-valid-color: #75b798;
     --bs-form-valid-border-color: #75b798;
     --bs-form-invalid-color: #ea868f;
-    --bs-form-invalid-border-color: #ea868f
+    --bs-form-invalid-border-color: #ea868f;
 }
 
 *,
 ::after,
 ::before {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion:no-preference) {
@@ -204,7 +204,7 @@ body {
     text-align: var(--bs-body-text-align);
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
 }
 
 hr {
@@ -8863,7 +8863,7 @@ fieldset:disabled .btn {
 
 .m-1 {
     margin: .25rem !important
-}
+} 
 
 .m-2 {
     margin: .5rem !important
@@ -8945,10 +8945,10 @@ fieldset:disabled .btn {
     margin-bottom: 1.5rem !important
 }
 
-.my-5 {
+/* .my-5 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important
-}
+} */
 
 .my-auto {
     margin-top: auto !important;
@@ -9027,9 +9027,9 @@ fieldset:disabled .btn {
     margin-bottom: 1rem !important
 }
 
-.mb-4 {
+/* .mb-4 {
     margin-bottom: 1.5rem !important
-}
+} */
 
 .mb-5 {
     margin-bottom: 3rem !important
@@ -9079,9 +9079,9 @@ fieldset:disabled .btn {
     padding: .5rem !important
 }
 
-.p-3 {
+ /* .p-3 {
     padding: 1rem !important
-}
+}  */
 
 .p-4 {
     padding: 1.5rem !important
@@ -9167,9 +9167,9 @@ fieldset:disabled .btn {
     padding-top: 1rem !important
 }
 
-.pt-4 {
+/* .pt-4 {
     padding-top: 1.5rem !important
-}
+} */
 
 .pt-5 {
     padding-top: 3rem !important
@@ -9261,8 +9261,7 @@ fieldset:disabled .btn {
 
 .gap-3 {
     gap: 1rem !important
-}
-
+} 
 .gap-4 {
     gap: 1.5rem !important
 }
@@ -10540,7 +10539,7 @@ fieldset:disabled .btn {
 
     .me-sm-1 {
         margin-right: .25rem !important
-    }
+    } 
 
     .me-sm-2 {
         margin-right: .5rem !important
