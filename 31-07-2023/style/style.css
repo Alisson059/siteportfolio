@@ -198,7 +198,7 @@ h3 {
     color: white;
     padding-top: 30px;
     padding-bottom: 5px;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: -8px;
 }
 
@@ -210,6 +210,11 @@ h3 {
     padding: 70px;
 }
 
+#sobreMim h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .texto {
     color: white;
     flex: 5;
@@ -219,29 +224,40 @@ h3 {
 
 }
 
-.conteinerCertificado {
+.conteinerHabilidade {
     flex: 5;
     display: flex;
     padding-left: 150px;
+   
     
 }
 
-.Ite {
-    flex: 5;
-    margin: -50px;
-    padding: -50px;
+.Habilidade {
+    display: flex;           
+    gap: 15px;               
+    justify-content: center; 
+    flex-wrap: wrap; 
+    padding: 10px;
 }
+
+.P_Git{
+    margin-left: 45px;
+}
+
 
 .Ceby {
     flex: 5;
     margin: -50px;
     padding: -50px;
-
-    
-
 }
 
-#sobreMim h3 {
+.conteinerHabilidade h2 {
+    font-size: 18px;
+    color: white;
+}
+
+
+#sobreMim h2 {
     text-align: center;
     padding: 50px;
     font-size: 25px;
@@ -298,6 +314,40 @@ textarea{
 
 .displayContato {
     display: flex;
+    flex: 5;
+}
+
+.ConteinerSelo{
+    display: flex;
+    flex: 5;
+}
+
+.SeloITE {
+    margin-left: 1%;
+}
+
+.ConteinerRodape{
+    display: flex;
+    flex: 5;
+}
+
+.ConteinerCertificado{
+    margin-left: 60%;
+}
+
+.ConteinerCertificado h2 {
+    padding-left: 30%;
+    font-size: 30px;
+}
+
+.Certificados {
+    display: flex;
+    flex: 5;
+    
+}
+
+.CertificadoSenac {
+    margin-left: 50%;
 }
 
 #mensagem {
@@ -309,6 +359,20 @@ textarea{
     font-size: 16px;
 }
 
+#dados{
+    display: flex;
+    flex: 5;
+}
+
+.ContatoH2 h2{
+    padding-left: 30%;
+    font-size: 30px;
+    
+}
+form {
+    display: flex;
+    flex: 5;
+}
 
 form h2 {
     padding-top: 10px;
@@ -326,14 +390,6 @@ form h2 {
     transform: scale(1.05);
     
 }
-
-.maps {
-    padding-left: 250px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
 .navColor {
     justify-content: center;
     background: rgba(70,8,138,1);
